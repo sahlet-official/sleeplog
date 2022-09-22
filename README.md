@@ -6,7 +6,7 @@ Type: health and wellbeing.
 Some people need to know when they sleep and how much time do they sleep.<br>
 Also sometimes it is important to understand the quality of sleep.
 
-Sleeplog is an App that allows you to measure, record and view your sleep parameters.<br>
+Sleeplog is an App that allows you to measure, record and view your sleep parameters. <br>
 Sleep is a very important part of our life. The quality of your life is directly related to the quality of your sleep.<br>
 If you need to influence your sleep, the first thing to do is to see what it is like. That's what Sleeplog is for.
 
