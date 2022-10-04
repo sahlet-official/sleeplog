@@ -142,9 +142,11 @@ that measures acceleration (or movement). These wearables don’t “measure” 
 algorithms. Actigraphy is not as accurate as PSG.
 [Full medical post](https://play.google.com/store/apps/details?id=com.urbandroid.sleep).<br>
 Partially, fitness trackers can perform the function of actigraphy. Some of them can measure not only the pulse but also<br>
-body temperature, blood oxygenation, and some more narrow physiological parameters.
+body temperature, blood oxygenation, and some more narrow physiological parameters.<br>
+Several world-famous brands produce entire product lines including wearable devices and software apps<br>
+for body parameter tracking. Products are equipped with sleep tracking functions.<br>
+Among these brands are [Garmin](https://www.garmin.com/), [Polar](https://www.polar.com/), [Xiaomi Mi Band](https://www.mi.com/global/miband), [Apple Watch](https://www.apple.com/watch/).
 
-___
 ## Conclusion
 
 It can be seen from the analysis that applications fixing the moment of falling asleep are presented on the market,<br>
