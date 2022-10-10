@@ -63,8 +63,8 @@ this means that he went to bed at that time.<br>
 3. If the user has not fallen asleep for some tangible period of time (20 - 30 minutes),<br>
 then he makes one more screenshot on his phone with the current time on it.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194905486-4b87ecda-863d-4e2a-8d86-e8de0b408bc8.png" width="60%"><br>
-4. Then maybe at some moment of time the user fell asleep.<br>
-Approximately last screenshot time + period of screenshot making divided by 2.<br>
+4. Then maybe at some moment of time, the user fell asleep.<br>
+Approximately the last screenshot time + period of screenshot making divided by 2.<br>
 5. If the user woke up for a short period of time<br>
 (for example, went to the toilet and then quickly fell asleep, or accidentally woke up and then quickly fell asleep)<br>
 then he doesn't do enithing with phone.
