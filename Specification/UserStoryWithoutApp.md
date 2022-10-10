@@ -21,7 +21,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 Подготовка: 3.4⭐️;<br>
 Лег в: 20:24;<br>
 Засыпание: 4.0⭐️;<br>
-Промежутки: (22:00; 3:10] + _ + (6:00; 8:00];<br>
+Промежутки: (22:00; 3:10] + -- + (6:00; 8:00];<br>
 Время: 430 минут;<br>
 Качество: 3.7⭐️;<br>
 Засыпал: null минут;<br>
@@ -37,7 +37,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 Подготовка: 4.0⭐️;<br>
 Лег в: 20:43;<br>
 Засыпание: 4.6⭐️;<br>
-Промежутки: (21:50; 7:43]_;<br>
+Промежутки: (21:50; 7:43]-;<br>
 Время: 593 минут;<br>
 Качество: 4.8⭐️;<br>
 Засыпал: null минут;<br>
@@ -81,7 +81,8 @@ Approximately last screenshot time + period of screenshot making divided by 2.<b
 Подготовка: 4.5⭐️;  <sub><sup>this line shows an estimation of the quality of preparation for sleep</sub></sup><br>
 Лег в: 20:42;  <sub><sup>this line shows the time when the user went to bed (the user takes the value from a screenshot)</sub></sup><br>
 Засыпание: 3.8⭐️;  <sub><sup>this line shows an estimation of the quality of falling asleep process (how comfortable, calm, fast the process is)</sub></sup><br>
-Промежутки: (22:22; 1:38). + (2:00; 7:55].._; <sub><sup>this line shows the time intervals in which a user slept (details below)</sub></sup><br>
+
+Промежутки: (22:22; 1:38). + (2:00; 7:55]..-; <sub><sup>this line shows the time intervals in which a user slept (details below)</sub></sup><br>
 Время: 551 минут;  <sub><sup>this line shows the total amount of time the user slept</sub></sup><br>
 Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable, calm, long the process is)</sub></sup><br>
 Засыпал: null минут;<br>  <sub><sup>this line shows the amount of time during which the user fell asleep</sub></sup><br>
@@ -94,7 +95,8 @@ The line with time intervals carries more information than it seems at first gla
 The Round parenthese in the interval boundary indicates that the time for the interval boundary is an estimate, not an exact value.<br>
 The Square bracket at the interval boundary indicates that the time for the interval boundary is an exact value.<br>
 A dot after a time interval means that there was a small sleep gap inside the interval for which the user did not take a screenshot.<br>
-An underline after a time interval means that there was a superficial sleep within the interval for some unknown time.<br>
+A hyphen after a time interval means that there was a superficial sleep within the interval for some unknown time.<br>
+A hyphen without interval means that there was a superficial sleep for some unknown time.<br>
 <br>
 If the field value is null, it means that the user did not want to fill in the fields<br>
 <br>
