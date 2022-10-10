@@ -57,7 +57,7 @@ For example:
    - maybe taking pills
    - maybe praying or doing some other rituals
    - ...
-2. User goes to bed and takes a screenshot on his phone with the current time on it,<br>
+2. The user goes to bed and takes a screenshot on his phone with the current time on it,<br>
 this means that he went to bed at that time.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194901951-b0f448a1-93c8-487e-b49c-0d6371e8d62b.png" width="30%"><br>
 3. If the user has not fallen asleep for some tangible period of time (20 - 30 minutes),<br>
