@@ -106,11 +106,12 @@ If the user has not fallen asleep, the sleep time interval can be specified as f
 3. The user wants to note down the time when he does not sleep in an easier way, for example, by pressing a physical button on the phone.<br>
 4. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of types of such parameters for sleep evaluation.<br>
 5. The user wants to be able to configure which sleep parameters he will enter and which sleep parameters he will not enter.<br>
-6. The user wants to find dependencies between different sleep parameters.<br>
-7. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
-8. The user wants to get the best advice from a sleep specialist based on his sleep data.<br>
-9. The user wants to be part of the app users community, share best practices, tips, and recommendations.<br>
-10. The user wants to share his sleepy successes among the app community and on social networks.<br>
+6. The user wants to expand the set of sleep parameters by adding new devices that can read new data types (heart rate, body temperature...).<br>
+7. The user wants to find dependencies between different sleep parameters.<br>
+8. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
+9. The user wants to get the best advice from a sleep specialist based on his sleep data.<br>
+10. The user wants to be part of the app users community, share best practices, tips, and recommendations.<br>
+11. The user wants to share his sleepy successes among the app community and on social networks.<br>
 
 
 
