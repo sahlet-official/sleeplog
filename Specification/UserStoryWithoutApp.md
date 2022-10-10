@@ -83,7 +83,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 Засыпание: 3.8⭐️;  <sub><sup>this line shows an estimation of the quality of the falling asleep process (how comfortable, calm, fast the process is)</sub></sup><br>
 Промежутки: (22:22; 1:38). + (2:00; 7:55]..-; <sub><sup>this line shows the time intervals in which a user slept (details below)</sub></sup><br>
 Время: 551 минут;  <sub><sup>this line shows the total amount of time the user slept (the user calculates values based on the received sleep intervals)</sub></sup><br>
-Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable, and calm the process is)</sub></sup><br>
+Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable and calm the process is)</sub></sup><br>
 Засыпал: null минут;  <sub><sup>this line shows the amount of time during which the user fell asleep</sub></sup><br>
 Медикаменты: в 20:11 Мелатонин 200мг;  <sub><sup>this line shows the medicines the user took and at what time he took it</sub></sup><br>
 Гипногоия: +;  <sub><sup>this line indicates the presence or absence of hypnagogia during the user's sleep</sub></sup><br>
