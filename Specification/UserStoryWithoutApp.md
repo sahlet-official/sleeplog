@@ -90,6 +90,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 Вмешательство: -;  <sub><sup>this line indicates whether the user was influencing the falling asleep process (whether the user tried to speed up falling asleep or to calm the mind in the process of falling asleep)</sub></sup><br>
 Комментарий: полюции;  <sub><sup>this line shows the user's comments</sub></sup><br>
 <br>
+All values of time for the intervals boundaries are taken by the user from screenshots.<br>
 The line with time intervals carries more information than it seems at first glance.<br>
 The Round parenthese in the interval boundary indicates that the time for the interval boundary is an estimate, not an exact value.<br>
 The Square bracket at the interval boundary indicates that the time for the interval boundary is an exact value.<br>
