@@ -101,7 +101,17 @@ If the field value is null, it means that the user did not want to fill in the f
 If the user has not fallen asleep, the sleep time interval can be specified as follows: (;);<br>
 <br>
 ### User wishes
-The user wants to automate some part of the processes of making Sleeplog.<br>
-The user wants to be able to view statistics of sleep parameters in a convenient form (data visualization).<br>
+1. The user wants to automate some part of the processes of making Sleeplog (calculations).<br>
+2. The user wants to be able to view statistics of sleep parameters in a convenient form (data visualization).<br>
+3. The user wants to note down the time when he does not sleep in an easier way, for example, by pressing a physical button on the phone.<br>
+4. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of types of such parameters for sleep evaluation.<br>
+5. The user wants to be able to configure which sleep parameters he will enter and which sleep parameters he will not enter.<br>
+6. The user wants to find dependencies between different sleep parameters.<br>
+7. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
+8. The user wants to get the best advice from a sleep specialist based on his sleep data.<br>
+9. The user wants to be part of the app users community, share best practices, tips, and recommendations.<br>
+10. The user wants to share his sleepy successes among the app community and on social networks.<br>
+
+
 
 
