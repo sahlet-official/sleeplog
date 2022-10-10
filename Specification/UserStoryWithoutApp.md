@@ -67,7 +67,7 @@ then he makes one more screenshot on his phone with the current time on it.<br>
 Approximately the last screenshot time + period of screenshot making divided by 2.<br>
 5. If the user woke up for a short period of time<br>
 (for example, went to the toilet and then quickly fell asleep, or accidentally woke up and then quickly fell asleep)<br>
-then he doesn't do enithing with phone.
+then he doesn't do anything with the phone.
 6. If the user woke up and has not fallen asleep for some tangible period of time<br>
 then he makes one more screenshot on his phone with the current time on it.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194906356-90e0a439-3a8d-4960-ab25-980fb7f1f44e.png" width="30%"><br>
