@@ -11,7 +11,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 Промежутки: (21:35; 7:43]...;<br>
 Время: 608 минут;<br>
 Качество: 4.9⭐️;<br>
-Гипногоия: -;<br>
+[Гипногоия](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%8F): -;<br>
 Засыпал: 20 минут;<br>
 Вмешательство: -;<br>
 Медикаменты: в 21:00 Мелатонин 200мг;<br>
@@ -26,7 +26,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 Качество: 3.7⭐️;<br>
 Засыпал: null минут;<br>
 Медикаменты: в 20:00 Мелатонин 200мг;<br>
-Гипногоия: +;<br>
+[Гипногоия](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%8F): +;<br>
 Вмешательство: +;<br>
 Комментарий:<br>
 большой пробел по середине;
@@ -42,7 +42,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 Качество: 4.8⭐️;<br>
 Засыпал: null минут;<br>
 Медикаменты: null;<br>
-Гипногоия: -;<br>
+[Гипногоия](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%8F): -;<br>
 Вмешательство: -;<br>
 Комментарий: полюции;<br>
 <br>
@@ -76,7 +76,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 8. Then the user wakes up and makes one more screenshot on his phone with the current time on it.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194911039-2e3d87f2-f8f5-4787-a89c-b813ddca0d69.png" width="30%"><br>
 9. After some time user makes a new record in his Sleeplog.<br>
-<br>
+
 Сон сегодня ночью (UTC+1):  <sub><sup>this line shows the user's current time zone</sub></sup><br>
 Подготовка: 4.5⭐️;  <sub><sup>this line shows an estimation of the quality of preparation for sleep</sub></sup><br>
 Лег в: 20:42;  <sub><sup>this line shows the time when the user went to bed (the user takes the value from a screenshot)</sub></sup><br>
@@ -102,14 +102,15 @@ If the field value is null, it means that the user did not want to fill in the f
 <br>
 If the user has not fallen asleep, the sleep time interval can be specified as follows: (;);<br>
 <br>
-### User wishes
 
+### User wishes
 Features for [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product):<br>
 1. The user wants to automate some part of the processes of making Sleeplog (calculations).<br>
 2. The user wants to be able to view statistics of sleep parameters in a convenient form (data visualization).<br>
 3. The user wants to note down the time when he does not sleep in an easier way, for example, by pressing a physical button on the phone.<br>
 4. The user wants to be able to set which of the optional sleep parameters he will enter every day and which not (set the checkboxes in settings).<br>
 <br>
+
 Features for the following app versions:<br>
 1. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
 2. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of different types of such parameters for sleep evaluation. (Boolean, Enum, Number, Percent, Percentage ratio like 90%:10%, String, Time, Score on a five-point scale, Score on a ten-point scale, Score on a ?-point scale, Photo).<br>
