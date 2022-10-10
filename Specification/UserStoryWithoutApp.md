@@ -86,7 +86,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable and calm the process is)</sub></sup><br>
 Засыпал: null минут;  <sub><sup>this line shows the amount of time during which the user fell asleep</sub></sup><br>
 Медикаменты: в 20:11 Мелатонин 200мг;  <sub><sup>this line shows the medicines the user took and at what time he took it</sub></sup><br>
-Гипногоия: +;  <sub><sup>this line indicates the presence or absence of hypnagogia during the user's sleep</sub></sup><br>
+[Гипногоия](https://ru.wikipedia.org/wiki/%D0%93%D0%B8%D0%BF%D0%BD%D0%B0%D0%B3%D0%BE%D0%B3%D0%B8%D1%8F): +;  <sub><sup>this line indicates the presence or absence of [hypnagogia](https://en.wikipedia.org/wiki/Hypnagogia) during the user's sleep</sub></sup><br>
 Вмешательство: -;  <sub><sup>this line indicates whether the user was influencing the falling asleep process (whether the user tried to speed up falling asleep or to calm the mind in the process of falling asleep)</sub></sup><br>
 Комментарий: полюции;  <sub><sup>this line shows the user's comments</sub></sup><br>
 <br>
