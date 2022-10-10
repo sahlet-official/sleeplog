@@ -80,8 +80,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 Сон сегодня ночью (UTC+1):  <sub><sup>this line shows the user's current time zone</sub></sup><br>
 Подготовка: 4.5⭐️;  <sub><sup>this line shows an estimation of the quality of preparation for sleep</sub></sup><br>
 Лег в: 20:42;  <sub><sup>this line shows the time when the user went to bed (the user takes the value from a screenshot)</sub></sup><br>
-Засыпание: 3.8⭐️;  <sub><sup>this line shows an estimation of the quality of falling asleep process (how comfortable, calm, fast the process is)</sub></sup><br>
-
+Засыпание: 3.8⭐️;  <sub><sup>this line shows an estimation of the quality of the falling asleep process (how comfortable, calm, fast the process is)</sub></sup><br>
 Промежутки: (22:22; 1:38). + (2:00; 7:55]..-; <sub><sup>this line shows the time intervals in which a user slept (details below)</sub></sup><br>
 Время: 551 минут;  <sub><sup>this line shows the total amount of time the user slept</sub></sup><br>
 Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable, calm, long the process is)</sub></sup><br>
