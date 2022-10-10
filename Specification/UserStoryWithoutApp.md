@@ -77,23 +77,31 @@ Approximately last screenshot time + period of screenshot making divided by 2.<b
 <img src="https://user-images.githubusercontent.com/45210795/194911039-2e3d87f2-f8f5-4787-a89c-b813ddca0d69.png" width="30%"><br>
 9. After some time user makes a new record in his Sleeplog.<br>
 <br>
-Сон сегодня ночью (UTC+1):  _this line shows the user's current time zone_ <br>
-Подготовка: 4.5⭐️;  *this line shows an estimation of the quality of preparation for sleep*<br>
-Лег в: 20:42;  *this line shows the time when the user went to bed (the user takes the value from a screenshot)*<br>
-Засыпание: 3.8⭐️;  *this line shows an estimation of the quality of falling asleep process (how comfortable, calm, fast the process is)*<br>
-Промежутки: (22:22; 1:38). + (2:00; 7:55].._; *this line shows the time intervals in which a user slept (details below)*<br>
-Время: 551 минут;  *this line shows the total amount of time the user slept*<br>
-Качество: 3.7⭐️;  *this line shows an estimation of the quality of the sleep process (how comfortable, calm, long the process is)*<br>
-Засыпал: null минут;<br>  *this line shows the amount of time during which the user fell asleep*<br>
-Медикаменты: в 22:00 Мелатонин 200мг;  *this line shows the medicines the user took and at what time he took it*<br>
-Гипногоия: +;  *this line indicates the presence or absence of hypnagogia during the user's sleep*<br>
-Вмешательство: -;  *this line indicates whether the user was influencing the falling asleep process (whether the user tried to speed up falling asleep or to calm the mind in the process of falling asleep)*<br>
-Комментарий: полюции;<br>
-
-
-___
-
-User wants to automaze some part of processes of making Sleeplog
-User wants to be able to view statistic of sleep parabeters in conveniant form (data visualization)
+Сон сегодня ночью (UTC+1):  <sub><sup>this line shows the user's current time zone</sub></sup><br>
+Подготовка: 4.5⭐️;  <sub><sup>this line shows an estimation of the quality of preparation for sleep</sub></sup><br>
+Лег в: 20:42;  <sub><sup>this line shows the time when the user went to bed (the user takes the value from a screenshot)</sub></sup><br>
+Засыпание: 3.8⭐️;  <sub><sup>this line shows an estimation of the quality of falling asleep process (how comfortable, calm, fast the process is)</sub></sup><br>
+Промежутки: (22:22; 1:38). + (2:00; 7:55].._; <sub><sup>this line shows the time intervals in which a user slept (details below)</sub></sup><br>
+Время: 551 минут;  <sub><sup>this line shows the total amount of time the user slept</sub></sup><br>
+Качество: 3.7⭐️;  <sub><sup>this line shows an estimation of the quality of the sleep process (how comfortable, calm, long the process is)</sub></sup><br>
+Засыпал: null минут;<br>  <sub><sup>this line shows the amount of time during which the user fell asleep</sub></sup><br>
+Медикаменты: в 22:00 Мелатонин 200мг;  <sub><sup>this line shows the medicines the user took and at what time he took it</sub></sup><br>
+Гипногоия: +;  <sub><sup>this line indicates the presence or absence of hypnagogia during the user's sleep</sub></sup><br>
+Вмешательство: -;  <sub><sup>this line indicates whether the user was influencing the falling asleep process (whether the user tried to speed up falling asleep or to calm the mind in the process of falling asleep)</sub></sup><br>
+Комментарий: полюции;  <sub><sup>this line shows the user's comments</sub></sup><br>
+<br>
+The line with time intervals carries more information than it seems at first glance.<br>
+The Round parenthese in the interval boundary indicates that the time for the interval boundary is an estimate, not an exact value.<br>
+The Square bracket at the interval boundary indicates that the time for the interval boundary is an exact value.<br>
+A dot after a time interval means that there was a small sleep gap inside the interval for which the user did not take a screenshot.<br>
+An underline after a time interval means that there was a superficial sleep within the interval for some unknown time.<br>
+<br>
+If the field value is null, it means that the user did not want to fill in the fields<br>
+<br>
+If the user has not fallen asleep, the sleep time interval can be specified as follows: (;);<br>
+<br>
+### User wishes
+The user wants to automate some part of the processes of making Sleeplog.<br>
+The user wants to be able to view statistics of sleep parameters in a convenient form (data visualization).<br>
 
 
