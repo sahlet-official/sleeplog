@@ -48,8 +48,7 @@ The user keeps a daily Sleeplog (sleep diary) in the following format:<br>
 <br>
 The user makes records in a file or chat (telegram) or notebook.<br>
 
-### Process of forming the Sleeplog without app
-
+### Data collection for the Sleeplog by the user without an app
 1. The user prepares for sleep.
 For example:
    - goes to shower
@@ -77,6 +76,7 @@ Approximately the last screenshot time + period of screenshot making divided by 
 <img src="https://user-images.githubusercontent.com/45210795/194911039-2e3d87f2-f8f5-4787-a89c-b813ddca0d69.png" width="30%"><br>
 9. After some time user makes a new record in his Sleeplog.<br>
 
+### The Sleeplog record description
 Сон сегодня ночью (UTC+1):  <sub><sup>this line shows the user's current time zone</sub></sup><br>
 Подготовка: 4.5⭐️;  <sub><sup>this line shows an estimation of the quality of preparation for sleep</sub></sup><br>
 Лег в: 20:42;  <sub><sup>this line shows the time when the user went to bed (the user takes the value from a screenshot)</sub></sup><br>
@@ -98,9 +98,9 @@ A dot after a time interval means that there was a small sleep gap inside the in
 A hyphen after a time interval means that there was a superficial sleep within the interval for some unknown time.<br>
 A hyphen without interval means that there was a superficial sleep for some unknown time.<br>
 <br>
-If the field value is null, it means that the user did not want to fill in the fields<br>
+If the field value is null, it means that the user did not want to fill in the fields.<br>
 <br>
-If the user has not fallen asleep, the sleep time interval can be specified as follows: (;);<br>
+If the user has not fallen asleep, the sleep time interval can be specified as follows: "(;)".<br>
 <br>
 
 ### User wishes
