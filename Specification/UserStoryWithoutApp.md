@@ -106,8 +106,8 @@ If the user has not fallen asleep, the sleep time interval can be specified as f
 1. The user wants to automate some part of the processes of making Sleeplog (calculations).<br>
 2. The user wants to be able to view statistics of sleep parameters in a convenient form (data visualization).<br>
 3. The user wants to note down the time when he does not sleep in an easier way, for example, by pressing a physical button on the phone.<br>
-4. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of types of such parameters for sleep evaluation.<br>
-5. The user wants to be able to configure which sleep parameters he will enter and which sleep parameters he will not enter.<br>
+4. The user wants to be able to set which of the optional sleep parameters he will enter every day and which not (set the checkboxes in settings).<br>
+5. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of different types of such parameters for sleep evaluation.<br>
 6. The user wants to expand the set of sleep parameters by adding new devices that can read new data types (heart rate, body temperature...).<br>
 7. The user wants to find dependencies between different sleep parameters.<br>
 8. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
