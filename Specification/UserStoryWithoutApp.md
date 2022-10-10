@@ -71,8 +71,8 @@ then he doesn't do anything with the phone.
 6. If the user woke up and has not fallen asleep for some tangible period of time<br>
 then he makes one more screenshot on his phone with the current time on it.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194906356-90e0a439-3a8d-4960-ab25-980fb7f1f44e.png" width="30%"><br>
-7. Then maybe at some moment of time the user fell asleep.<br>
-Approximately last screenshot time + period of screenshot making divided by 2.<br>
+7. Then maybe at some moment of time, the user fell asleep.<br>
+Approximately the last screenshot time + period of screenshot making divided by 2.<br>
 8. Then the user wakes up and makes one more screenshot on his phone with the current time on it.<br>
 <img src="https://user-images.githubusercontent.com/45210795/194911039-2e3d87f2-f8f5-4787-a89c-b813ddca0d69.png" width="30%"><br>
 9. After some time user makes a new record in his Sleeplog.<br>
