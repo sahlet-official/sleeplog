@@ -112,13 +112,16 @@ Features for [MVP](https://en.wikipedia.org/wiki/Minimum_viable_product):<br>
 <br>
 
 Features for the following app versions:<br>
-1. The user wants to store his Sleeplog in the cloud (on the remote server).<br>
-2. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of different types of such parameters for sleep evaluation. (Boolean, Enum, Number, Percent, Percentage ratio like 90%:10%, String, Time, Score on a five-point scale, Score on a ten-point scale, Score on a ?-point scale, Photo).<br>
-3. The user wants to expand the set of sleep parameters by adding new devices that can read new body or environment parameters (heart rate, body temperature...).<br>
-4. The user wants to find dependencies between different sleep parameters.<br>
-5. The user wants to get the best advice from a sleep specialist based on his sleep data.<br>
-6. The user wants to be part of the app users community, share and get best practices, tips, and recommendations.<br>
-7. The user wants to share his sleepy successes among the app community and on social networks.<br>
+1. The user wants to have an alternative option to tell the app that he is not sleeping now.<br>
+(User can knock on something 2 or 3 times to make a recognizable sound pattern, the app will listen to the microphone and decode this pre-discussed signal as "I am not sleeping now").<br>
+2. The user wants to store his Sleeplog and user data in the cloud (on the remote server).<br>
+3. The user wants the app to analyze the sounds during his sleep in order to evaluate the properties and qualities of sleep based on data from the microphone.<br>
+4. The user wants to be able to add new previously unknown parameters for sleep evaluation and have a set of different types of such parameters for sleep evaluation. (Boolean, Enum, Number, Percent, Percentage ratio like 90%:10%, String, Time, Score on a five-point scale, Score on a ten-point scale, Score on a ?-point scale, Photo, Audio records, Video records, ...).<br>
+5. The user wants to expand the set of sleep parameters by adding new devices that can read new body or environment parameters (heart rate, body temperature...).<br>
+6. The user wants the app to periodically analyze sleep data and look for relationships between sleep parameters. As a result of the analysis of the user's sleep data, the app shows exactly how the sleep parameters depend on each other and gives recommendations to the user based on his sleep data and scientific knowledge about sleep.<br>
+7. The user wants to get the best advice from a sleep specialist based on his sleep data.<br>
+8. The user wants to be part of the app users community, share and get best practices, tips, and recommendations.<br>
+9. The user wants to share his sleepy successes among the app community and on social networks.<br>
 
 
 
