@@ -12,16 +12,21 @@
 потом реализация. На каждом подпункте нужно оценивать сложность, и коммититься (да мы сделаем в примерно такие сроки; мы не знаем сколько займет, нужно доисследование; нет мы не сделаем, это сложно, упирается в это (аргументы)...;)
 
 ## Process Structure
+For the project was taken the best from a number of software development models.
 
 ### Large Scale
-
-Incremental Model
-
+- Incremental Model<br>
+From this development model, the idea of a gradual increment in functionality is taken.<br>
+![image](https://user-images.githubusercontent.com/45210795/196042134-8272cc6d-a3b1-4098-b01d-e39ed15d71be.png)
+- Iterative Model<br>
+From this development model, the idea of a parallel execution of different iterations is taken.<br>
+For example, when the development stage of the previous iteration is underway, it is possible<br>
+to carry out the planning stage for the next iteration at the same time by distributing roles among employees.<br>
 
 ### Medium Scale
-[Waterfall]() Model
-![image](https://user-images.githubusercontent.com/45210795/196038448-f67138f8-d206-4d6f-9e0e-4da8fe450762.png)
-[Iterative Waterfall]() Model
+- Waterfall Model<br>
+![image](https://user-images.githubusercontent.com/45210795/196038448-f67138f8-d206-4d6f-9e0e-4da8fe450762.png)<br>
+- Iterative Waterfall Model<br>
 
 
 ### Smale Scale
@@ -36,6 +41,7 @@ https://www.javatpoint.com/software-engineering-incremental-model
 https://en.wikipedia.org/wiki/Incremental_build_model
 https://www.interviewbit.com/blog/incremental-model/
 https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html
+https://www.geeksforgeeks.org/software-engineering-incremental-process-model/
 
 https://en.wikipedia.org/wiki/Iterative_and_incremental_development
 
