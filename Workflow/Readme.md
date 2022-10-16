@@ -26,25 +26,26 @@ to carry out the planning stage for the next iteration at the same time by distr
 ### Medium Scale
 - Waterfall Model<br>
 ![image](https://user-images.githubusercontent.com/45210795/196038448-f67138f8-d206-4d6f-9e0e-4da8fe450762.png)<br>
+estimation, buffers, commitment,
 - Iterative Waterfall Model<br>
 
 
 ### Smale Scale
-Scrum, Sprints, Tasks
+Scrum, Sprints, Tasks, PRs, Reviews
 
 
 ## Conclusion
 
 ### References
 
-https://www.javatpoint.com/software-engineering-incremental-model
-https://en.wikipedia.org/wiki/Incremental_build_model
-https://www.interviewbit.com/blog/incremental-model/
-https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html
-https://www.geeksforgeeks.org/software-engineering-incremental-process-model/
-
-https://en.wikipedia.org/wiki/Iterative_and_incremental_development
-
-https://en.wikipedia.org/wiki/Waterfall_model
-https://managementhelp.org/waterfall-methodology
-https://www.geeksforgeeks.org/software-engineering-iterative-waterfall-model/
+https://www.javatpoint.com/software-engineering-incremental-model<br>
+https://en.wikipedia.org/wiki/Incremental_build_model/<br>
+https://www.interviewbit.com/blog/incremental-model/<br>
+https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html<br>
+https://www.geeksforgeeks.org/software-engineering-incremental-process-model/<br>
+<br>
+https://en.wikipedia.org/wiki/Iterative_and_incremental_development<br>
+<br>
+https://en.wikipedia.org/wiki/Waterfall_model<br>
+https://managementhelp.org/waterfall-methodology<br>
+https://www.geeksforgeeks.org/software-engineering-iterative-waterfall-model/<br>
