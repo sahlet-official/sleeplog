@@ -46,7 +46,18 @@ estimation, buffers, commitment,
 
 
 ### Smale Scale
-Scrum, Sprints, Tasks, PRs, Reviews
+Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
+
+Let's take Sprint as 1 week.
+
+SP (Fibonacci number series)
+2 SP - Tiny - Take in sprint
+3 SP - Small - Take in sprint
+5 SP - Medium - Take in sprint
+8 SP - Large - Not take in sprint - Need to be splitted
+>= 13 SP - X-Large - Not take in sprint - Need to be splitted
+
+
 
 
 ## Conclusion
