@@ -1,4 +1,4 @@
-# Workflow
+# Sleeplog project Workflow
 
 ## Intro
 
@@ -46,7 +46,7 @@ estimation, buffers, commitment,
 
 
 ### Smale Scale
-Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
+Team programming, Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
 
 Let's take Sprint as 1 week.
 
@@ -63,7 +63,8 @@ SP (Fibonacci number series)
 ## Conclusion
 
 ### References
-
+https://en.wikipedia.org/wiki/Team_programming
+<br>
 https://www.javatpoint.com/software-engineering-incremental-model<br>
 https://en.wikipedia.org/wiki/Incremental_build_model/<br>
 https://www.interviewbit.com/blog/incremental-model/<br>
