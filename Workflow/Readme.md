@@ -5,6 +5,11 @@
 TODO: need to be translated.
 Для проведения аналогий и улучшения понимания ведения рабочего процесса на проекте, представьте, что мы, это экипаж корабля, который хочет поплавать.
 Для тех, кому больше нравися ходить по земле, чем по морю, мы - группа туристов, которая собралась погулять.
+Мы хотим поплавать или погулять просто потому что нам это нравится, это основная причина.
+Это значит, что мы не будем перенапрягаться во время путешествия и жертвовать своим комфортом.
+Если кому-то будет сложно переносить путешествие - ему лучше отдохнуть некоторое время, потом научиться вести себя так,
+чтобы путешествие не приносило дискомфорт. Еще есть вариант сойти на берег или пересесть на другом судне, где ему таки будет хорошо.
+
 Мы в каждый момент времени находимся в некоторой точке. У нас либо есть направление, либо его нет.
 Если оно есть, оно направлено куда-то. Направление может быть нестабильным, мы можем его менять.
 Оно зависит от многово, например: желаний, ориентиров, идей, окружающей среды, течений и ветров в море...
@@ -45,9 +50,11 @@ estimation, buffers, commitment,
 - Iterative Waterfall Model<br>
 
 
-### Smale Scale
+### Small Scale
 Team programming
 Benefits of this approach include the deficiencies in knowledge of one programmer to be compensated for by the ability in specific areas by the other programmer; in addition, the shared responsibility is thought to increase incentives for meeting project deadlines and quality targets.
+In the event that one programmer stumbled on some task and his vision is clouded (the eye is blurred) and he cannot find a solution. In this case, it is very good for another programmer to connect, look at the process from the side, give his comment, give a recommendation, or immediately suggest a ready-made solution that the programmer performing the task simply does not see.
+
 , Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
 
 Let's take Sprint as 1 week.
