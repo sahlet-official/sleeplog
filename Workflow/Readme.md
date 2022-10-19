@@ -46,7 +46,9 @@ estimation, buffers, commitment,
 
 
 ### Smale Scale
-Team programming, Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
+Team programming
+Benefits of this approach include the deficiencies in knowledge of one programmer to be compensated for by the ability in specific areas by the other programmer; in addition, the shared responsibility is thought to increase incentives for meeting project deadlines and quality targets.
+, Scrum, Tasks, Task Estimations, Sprints, Taking tasks to Sprint, PRs, Reviews.
 
 Let's take Sprint as 1 week.
 
