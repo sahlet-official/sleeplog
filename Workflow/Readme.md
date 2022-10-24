@@ -66,6 +66,57 @@ _
 Ещё важным условием движения проекта является то, что у него должен быть ненулевой вектор скорости. Для этого нужно, чтоб у членов команды реализаторов был свой вектор скорости, и очень хорошо, когда он у каждого не нулевой и направлен по намеченному направлению.
 Каждому участнику проекта для понимания того, правильно ли направлен его вектор движения, нужно координироваться с командой: с менеджером и с другими членами команды. Роль менеджера в том, чтоб, создавать и реализовывать план, намечать общее направление, координировать команду и направлять каждого члена команды в направлении соответствующем его роли. Важно чтоб члены команды вводили менеджера в курс дела и убеждались в том, что они двигаются туда, куда надо.
 
+____________
+
+From prepared text for meeting:
+
+Describe the role of the Software Architect and ask @Ivanec2003 to take this role to help @Yura-0 . 15 minutes
+(посмотри в сохраненные сообщеия)
+
+Say that it is the designer's role (проектировачная роль).
+Say about the property of the mind to divide the whole into parts and give new meanings to parts.
+This property of the mind is named "decomposition".
+Show an example of dividing the whole into parts and giving meaning to the parts.
+(divide a circle into parts and give meanings: Left and Right).
+Say that it is the main thing that he will use to make the architecture.
+Show an example with "How to build a house?" or "How to make a desk?". ->
+Firstly you need to make all parts and then connect these parts together. ->
+If some part seems to be too complicated to do it all at once - then you need to divide it more, make smaller parts, and then connect these parts together too, and so on.
+This approach is named "top-down design". It is a subtype of "decomposition".
+Read here.
+
+But sometimes making the whole product in one step is much chipper.
+It is not simpler to understand but maybe cheaper.
+For example, now they have come up with, instead of assembling a rocket from parts,
+printing it on a 3D printer completely from scratch with one cast part.
+But in this work that you are invited to create a software architecture, you need to separate the entities so that they are small enough and understandable to people. Since programs are written by people, and then people edit the code. The machine does not care, it will understand the most terrible shit code, but people do not. To change someone else's code or even your old code, you must first read and understand it. If this is difficult to do, the time and cost of maintaining such code can become enormous. Here is an example of the antipattern, how not to do it.
+https://habr.com/ru/post/116842/
+For example, I too did not understand earlier why to do the code clearly. I wrote very long lines of code, "shit code" that was understandable only to me for two weeks and to the computer at any time. But not for people who want to change it and not for me after 2 weeks.
+
+bad:
+print(a+b*c - g/(3 + f)^23)
+
+good:
+v1 = b*c
+v2 = a + v1
+l = v2
+v3 = 3 + f
+v4 = v3^23
+v5 = g/v4
+r = -v5
+v = l + r
+print(v)
+
+Ask @Ivanec2003 to explain how to make a cube with "top-down design".
+
+Say that it is useful because it will helpful for him in the future since it is useful for any project regardless of technology.
+Say that to make architecture he doesn't need to know flutter.
+Also, it is helpful for the project and @Yura-0 personally because it will make @Yura-0 work easier.
+Say that his job will be in the next:
+
+To split the whole into enough small entities to make them clear and understandable.
+To give meaning to entities regarding canons like SOLID and MVP (use SOLID and MVP principles in your work)
+
 ## Intro
 
 TODO: need to be translated.
