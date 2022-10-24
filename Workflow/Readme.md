@@ -1,4 +1,4 @@
-# Sleeplog project Workflow (Draft 1)
+# Sleeplog project Workflow (Draft 2)
 
 ## Unstructured info
 
