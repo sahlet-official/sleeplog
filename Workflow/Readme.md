@@ -185,6 +185,9 @@ ___
 Agile methodologies vs Design thinking, planning, specification, and documentation
 
 https://youtu.be/HpY5c4iz0II
+https://youtu.be/n397Pv46Ouk
+https://youtu.be/-0SiQBVQ8xw
+https://youtu.be/b8qIYjZl5Bg
 https://www.hotjar.com/design-thinking/agile/
 https://www.mendix.com/blog/design-thinking-vs-agile-combine-problem-finding-problem-solving-better-outcomes/
 https://www.eleken.co/blog-posts/design-thinking-vs-agile-dont-choose-unite
@@ -195,6 +198,23 @@ https://www.forecast.app/blog/difference-between-agile-waterfall
 https://www.forbes.com/advisor/business/agile-vs-waterfall-methodology/
 https://diveintobpm.org/advantages-of-agile-project-management/
 http://agilemodeling.com/essays/agileDocumentation.htm
+
+The Lean model
+https://en.wikipedia.org/wiki/Lean_software_development
+https://www.mevisio.com/blog/what-is-lean-methodology-and-principles
+
+Lean vs Agile
+https://www.planview.com/resources/articles/agile-vs-lean/
+https://www.mckinsey.com/capabilities/operations/our-insights/lean-management-or-agile-the-right-answer-may-be-both
+https://twproject.com/blog/lean-agile-differences-similarities/
+
+Lean vs Agile vs design thinking
+https://youtu.be/_4VPfmtwRac
+https://youtu.be/OCL6RkUOShI
+https://youtu.be/vrhp2cEtNjc
+https://www.amazon.com/Lean-Agile-Design-Thinking-High-Performing/dp/0999476912
+https://uxdesign.cc/agile-vs-lean-vs-design-thinking-2484f2e0f0ed
+https://www.boldare.com/blog/lean-startup-vs-agile-vs-design-thinking/
 
 
 UML
