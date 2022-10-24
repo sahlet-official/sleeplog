@@ -71,6 +71,7 @@ ____________
 From prepared text for meeting:
 
 Describe the role of the Software Architect and ask @Ivanec2003 to take this role to help @Yura-0 . 15 minutes
+
 (посмотри в сохраненные сообщеия)
 
 Say that it is the designer's role (проектировачная роль).
@@ -83,7 +84,7 @@ Show an example with "How to build a house?" or "How to make a desk?". ->
 Firstly you need to make all parts and then connect these parts together. ->
 If some part seems to be too complicated to do it all at once - then you need to divide it more, make smaller parts, and then connect these parts together too, and so on.
 This approach is named "top-down design". It is a subtype of "decomposition".
-Read here.
+[Read here](https://knowledge.autodesk.com/ru/support/inventor/learn-explore/caas/CloudHelp/cloudhelp/2019/RUS/Inventor-Help/files/GUID-63FA128E-63E2-4176-8653-327BD80D8A43-htm.html).
 
 But sometimes making the whole product in one step is much chipper.
 It is not simpler to understand but maybe cheaper.
@@ -107,15 +108,14 @@ r = -v5
 v = l + r
 print(v)
 
-Ask @Ivanec2003 to explain how to make a cube with "top-down design".
+Ask @Ivanec2003  to explain how to make a cube with "top-down design".
 
 Say that it is useful because it will helpful for him in the future since it is useful for any project regardless of technology.
 Say that to make architecture he doesn't need to know flutter.
 Also, it is helpful for the project and @Yura-0 personally because it will make @Yura-0 work easier.
 Say that his job will be in the next:
-
-To split the whole into enough small entities to make them clear and understandable.
-To give meaning to entities regarding canons like SOLID and MVP (use SOLID and MVP principles in your work)
+- To split the whole into enough small entities to make them clear and understandable.
+- To give meaning to entities regarding canons like SOLID and MVP (use SOLID and MVP principles in your work)
 
 ## Intro
 
