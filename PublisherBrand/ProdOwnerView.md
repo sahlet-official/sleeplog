@@ -10,9 +10,9 @@ P.S.:<br>
 Give people toys and they will play with you.<br>
 <br>
 ## Small logo
-FT letters in black circle or square with rounded or simple (not rounded) corners.<br>
+"FT" letters in black circle or square with rounded or simple (not rounded) corners.<br>
 The shape of the background - needs to be seen to view and make a choice.<br>
-F white, T red.<br>
+"F" white, "T" red.<br>
 The font of F is simple font.<br>
 The font of T should look like careless brush strokes.<br>
 The lines that form the letters are obtained with tears and irregularities.<br>
@@ -22,7 +22,13 @@ the letter T should look cool and sassy.<br>
 Use [TM](https://en.wikipedia.org/wiki/Trademark_symbol).<br>
 <br>
 ## Big logo (rectangular banner)
-Freedom Toys<br>
+"FreedomToys" phrase in black rectangle with 90 degree right angles.<br>
+"Freedom" word is white, "Toys" word is red.<br>
+The font of F is simple font.<br>
+The font of T should look like careless brush strokes.<br>
+The lines that form the letters are obtained with tears and irregularities.<br>
+the letter T should look cool and sassy.<br>
+<br>
 Use [TM](https://en.wikipedia.org/wiki/Trademark_symbol).<br>
 <br>
 <br>
