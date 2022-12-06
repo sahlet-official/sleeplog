@@ -5,8 +5,8 @@ A set of functions for MVP:
 - the application tracks the amount of sleep;
 - the application superficially records sleep variability without external tracker devices;
 - the application records the moment of awakening;
-- the user can refine and / or change additional data applications;
-- the user can add notes to each dream and thus keep a journal;
+- the user can edit and supplement sleep data records;
+- the user can add comments to each sleep record;
 - the application visualizes the received data in the form of graphs;
 - analysis data can be viewed in the form of a log;
 <empty line>
