@@ -7,7 +7,7 @@ A set of functions for MVP:
 - the application records the moment of awakening;
 - the user can edit and supplement sleep data records;
 - the user can add comments to each sleep record;
-- the application visualizes the received data in the form of graphs;
+- the application visualizes the data series in the form of different types of graphs;
 - analysis data can be viewed in the form of a log;
 <empty line>
   
