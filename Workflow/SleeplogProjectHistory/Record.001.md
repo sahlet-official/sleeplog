@@ -45,3 +45,8 @@ and produce a small and simple app to master the best practices for conducting a
 
 First incremental iteration was [Buttonlog](https://github.com/sahlet-official/buttonlog)<br>
 Then there is 
+
+# Navigate
+Next: [Record.Null.md](./Record.Null.md)<br>
+Prev: [Record.Null.md](./Record.Null.md)
+
