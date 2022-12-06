@@ -3,7 +3,7 @@ The functions list and usage scenarios was sourced from [UserStoryWithoutApp](./
 A set of functions for MVP:
 - the application tracks the moment of falling asleep;
 - the application tracks the amount of sleep;
-- the application records the nature of sleep without trackers;
+- the application superficially records sleep variability without external tracker devices;
 - the application records the moment of awakening;
 - the user can refine and / or change additional data applications;
 - the user can add notes to each dream and thus keep a journal;
