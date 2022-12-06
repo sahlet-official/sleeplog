@@ -1,4 +1,4 @@
-This is a list of features that the application will receive in the MVP version.<br>
+This is a list of features that will be given to user of the application in the MVP version.<br>
 The functions list and usage scenarios was sourced from [UserStoryWithoutApp](./UserStoryWithoutApp.md) and an interview with the Product Owner.<br>
 A set of functions for MVP:
 - the application tracks the moment of falling asleep;
