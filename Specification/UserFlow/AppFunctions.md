@@ -16,6 +16,5 @@ A set of usage scenarios for MVP:
 - end sleep monitoring;
 - let the device know that you are not sleeping;
 - view daily report;
-- complete the sleep log;
-- edit sleep data;
+- edit/fill and confirm the sleep record;
 - view sleep statistics;
