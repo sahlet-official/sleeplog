@@ -26,22 +26,24 @@ It is planned to deal with:
 - [1. Sleeplog MVP](https://github.com/sahlet-official/sleeplog/milestone/1)
 
 ### Buttonlog stage
-the Buttonlog app is the first iteration of Sleeplog app development.
-The team of authors of the program consists mainly of students.
-So it was decided to split the development process into iterations and execute the implementation step by step.
-With this approach, it is much easier for a team of young professionals firstly to design, implement,
-and produce a small and simple app to master the best practices for conducting a workflow, and then go further.
+the Buttonlog app is the first iteration of Sleeplog app development.<br>
+The team of authors of the program consists mainly of students.<br>
+So it was decided to split the development process into iterations and execute the implementation step by step.<br>
+With this approach, it is much easier for a team of young professionals firstly to design, implement,<br>
+and produce a small and simple app to master the best practices for conducting a workflow, and then go further.<br>
 
 #### Architecture of the Buttonlog App:
-There is a UI app that shows a history of pressing on device's physical buttons.
-It was decided to implement the UI app using the [Flutter](https://flutter.dev/).
+There is a UI app that shows a history of pressing on device's physical buttons.<br>
+And there is a service that collects a history of pressing on device's physical buttons.<br>
+It was decided to implement the UI app using the [Flutter](https://flutter.dev/).<br>
 Reasons of decision:
 - with Flutter you can build your app for several platforms (IOS, Android, web);
 - Flutter is pretty easy to use;
 - project doesn't need some high-performance graphic calculations, just forms, text, and buttons (which Flutter is perfect for);
 
-## Current project state
+The first and maybe only platform which the app will build for is Android, so the service is planned to develop for the Android platform.<br>
 
+## Current project state
 For the moment team is dealing with:
 - [Buttonlog full version](https://github.com/sahlet-official/buttonlog/milestone/1)
 - [0. Preparations](https://github.com/sahlet-official/sleeplog/milestone/4)
