@@ -38,7 +38,7 @@ It was decided to implement the UI app using the [Flutter](https://flutter.dev/)
 Reasons of decision:
 - with Flutter you can build your app for several platforms (IOS, Android, web);
 - Flutter is pretty easy to use;
-- project doesn't need some high-performance graphic calculations, just forms, text, and buttons (which for Flutter is perfect);
+- project doesn't need some high-performance graphic calculations, just forms, text, and buttons (which Flutter is perfect for);
 
 ## Current project state
 
