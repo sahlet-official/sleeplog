@@ -40,13 +40,35 @@ Reasons of decision:
 - with Flutter you can build your app for several platforms (IOS, Android, web);
 - Flutter is pretty easy to use;
 - project doesn't need some high-performance graphic calculations, just forms, text, and buttons (which Flutter is perfect for);
+- one of the team members is passioned to develop himself as Flutter developer;
 
 The first and maybe only platform which the app will build for is Android, so the service is planned to develop for the Android platform.<br>
+Reasons of decision:
+- it is easier and cheaper to deploy app on Android Google Play compared to IOS App Store;
+- service is platform dependent;
+- one of the team members is passioned to develop himself as Android developer;
+
+### Preparations stage
+Preparations - the preparation stage is a stage with an indefinite size and boundaries.<br>
+The reason for the indefinite is that this is the first project for the Product Owner where he is responsible for everything,<br>
+so he does not know what is needed to fully prepare for the development process.<br>
+
+### Sleeplog MVP stage
+Sleeplog MVP - this is a prototype application that has basic functions to meet the needs of the user in maintaining and monitoring sleep history.
+
 
 ## Current project state
 For the moment team is dealing with:
 - [Buttonlog full version](https://github.com/sahlet-official/buttonlog/milestone/1)
 - [0. Preparations](https://github.com/sahlet-official/sleeplog/milestone/4)
+
+### Done
+- it is developed the UI design for the Buttonlog App;
+
+### In progress
+- the UI design for the Sleeplog App is being developed;
+- Buttonlog UI App is being developed;
+- Buttonlog Service is being developed;
 
 ## Team members
 - Manager and Architect [Sasha Freedom](https://www.linkedin.com/in/sasha-freedom/).<br>
