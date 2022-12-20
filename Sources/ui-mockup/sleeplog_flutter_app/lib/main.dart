@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sleeplog_flutter_app/start_page.dart';
+import 'package:sleeplog_flutter_app/start_screen.dart';
 
 void main() {
   runApp(const MyApp());
