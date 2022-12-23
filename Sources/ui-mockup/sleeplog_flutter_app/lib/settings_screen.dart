@@ -11,7 +11,7 @@ class SettingsPage extends StatelessWidget {
       body: Center(
         child: Container(
           margin: EdgeInsets.fromLTRB(40, 60, 40, 0),
-          padding: EdgeInsets.fromLTRB(47, 10, 47, 0),
+          padding: EdgeInsets.fromLTRB(0, 10, 84, 0),
           decoration: BoxDecoration(
             color: ColorsNames.cardBackColor,
             borderRadius: BorderRadius.all(Radius.circular(15)),
@@ -22,14 +22,18 @@ class SettingsPage extends StatelessWidget {
           ),
           child: Column(
             children: [
-              Container(
-                child: Text(
-                  "Settings",
-                  style: TextStyle(
-                    fontSize: 36,
-                    fontWeight: FontWeight.bold,
-                    fontFamily: "Montserrat",
-                    color: ColorsNames.lightPurple,
+              Align(
+                alignment: Alignment.topLeft,
+                child: Container(
+                  margin: EdgeInsets.fromLTRB(15, 20, 0, 20) ,
+                  child: Text(
+                    "Settings",
+                    style: TextStyle(
+                      fontSize: 36,
+                      fontWeight: FontWeight.w500,
+                      fontFamily: "Montserrat",
+                      color: ColorsNames.lightPurple,
+                    ),
                   ),
                 ),
               ),

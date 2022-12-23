@@ -117,6 +117,7 @@ class _NamePageState extends State<NamePage> {
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
                     fontSize: 24,
+                    fontWeight: FontWeight.w500,
                     fontFamily: "Monsserat",
                   ),
                 ),

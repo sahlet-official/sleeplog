@@ -59,12 +59,10 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 0
-                ?const Icon(
-                    Icons.home_outlined,
-                    color: Colors.white,
-                    size: 35,
-                  ) 
-                
+                ? SvgPicture.asset(
+                  Assets.homeIconPress
+                )
+
                 : SvgPicture.asset(
                   Assets.homeIcon
                 ),
@@ -77,11 +75,9 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 1
-                ?const Icon(
-                    Icons.work_outline_outlined,
-                    color: Colors.white,
-                    size: 35,
-                  ) 
+                ? SvgPicture.asset(
+                  Assets.statisticIconPress
+                )
                 : SvgPicture.asset(
                   Assets.statisticIcon
                 ),
@@ -94,11 +90,9 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 2
-                ?const Icon(
-                    Icons.widgets_outlined,
-                    color: Colors.white,
-                    size: 35,
-                  ) 
+                ?SvgPicture.asset(
+                  Assets.settingsIconPress
+                )
                 : SvgPicture.asset(
                   Assets.settingsIcon
                 ),
