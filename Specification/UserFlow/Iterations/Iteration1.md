@@ -1,6 +1,7 @@
-This is first iteration of UserFlow for Sleeplog.<br>
+This is iteration 1 of UserFlow for Sleeplog.< br>
 Userflow was created based on:
-- Product Owner requirements;
-- the interview with the Product Owner;
-- [app functions](https://github.com/sahlet-official/sleeplog/blob/develop/Specification/UserFlow/AppFunctions.md).<br>
-UserFlow was created in [Miro](https://miro.com/) and can be seen [here](https://miro.com/app/board/uXjVP9crbcw=/).
+
+the interview with the Product Owner;
+Product Owner requirements that were conducted from text dialog;
+[app functions](./../AppFunctions.md);
+Userflow was created in [Miro](https://miro.com/) and can be seen [here](https://miro.com/app/board/uXjVP9crbcw=/?share_link_id=534395451461).
