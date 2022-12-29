@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'home_screen.dart';
-import 'settings_screen.dart';
-import 'statistic_screen.dart';
+
 
 import 'assets.dart';
 import 'colors.dart';
-
+import 'home_screen.dart';
+import 'settings_screen.dart';
+import 'statistic_screen.dart';
 
 class MyNavigationbar extends StatefulWidget {
   

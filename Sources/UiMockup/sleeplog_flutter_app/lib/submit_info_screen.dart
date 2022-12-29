@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'texts.dart';
 
 class SubmitInfoPage extends StatefulWidget {
   @override
@@ -38,7 +39,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
               child: Container(
                 margin: EdgeInsets.fromLTRB(50, 15, 0, 20),
                 child: Text(
-                  "Submit info",
+                  Texts.submitHeader,
                   style: TextStyle(
                     fontSize: 36,
                     fontWeight: FontWeight.w500,
@@ -103,7 +104,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                           child: Container(
                             padding: EdgeInsets.fromLTRB(10, 10, 0, 30),
                             child: Text(
-                              "How long did you fall asleep",
+                              Texts.submitSleepLengthHeader,
                               style: TextStyle(
                                 fontSize: 17,
                                 fontWeight: FontWeight.w500,
@@ -184,7 +185,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                           child: Container(
                             padding: EdgeInsets.fromLTRB(10, 10, 0, 30),
                             child: Text(
-                              "Comments",
+                              Texts.submitComments,
                               style: TextStyle(
                                 fontSize: 17,
                                 fontWeight: FontWeight.w500,
@@ -200,6 +201,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                             height: 5 * 20,
                             padding: EdgeInsets.fromLTRB(30, 0, 30, 0),
                             child: TextField(
+                              style: TextStyle(color: ColorsNames.lightPurple),
                               controller: _controller,
                               maxLines: 5,
                               onSubmitted: ((value) {}),
@@ -230,7 +232,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(top: 20),
+              margin: EdgeInsets.fromLTRB(10, 20, 10,0),
               width: 340,
               height: 60,
               decoration: BoxDecoration(
@@ -249,7 +251,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                   Navigator.pop(context);
                 },
                 child: const Text(
-                  "Submit",
+                  Texts.submitButton,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
                     fontSize: 24,

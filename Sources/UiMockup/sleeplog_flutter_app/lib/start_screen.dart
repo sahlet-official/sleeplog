@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'assets.dart';
 import 'colors.dart';
 import 'name_screen.dart';
+import 'texts.dart';
 
 class StartPage extends StatelessWidget {
   @override
@@ -31,7 +32,7 @@ class StartPage extends StatelessWidget {
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       child: const Text(
-                        "Your Sleep\n\tAssistant",
+                        Texts.startHeader,
                         style: TextStyle(
                           color: ColorsNames.lightPurple,
                           fontSize: 36,
@@ -45,7 +46,7 @@ class StartPage extends StatelessWidget {
                     alignment: Alignment.bottomCenter,
                     child: Container(
                       child: Text(
-                        "Improve your sleep\n\t\t\t\t\tquality today",
+                        Texts.startSubtitle,
                         style: TextStyle(
                           color: ColorsNames.darkPurple,
                           fontSize: 14,
@@ -79,7 +80,7 @@ class StartPage extends StatelessWidget {
                     MaterialPageRoute(builder: (context) => NamePage()));
               },
               child: const Text(
-                "Get Started",
+                Texts.startButton,
                 style: TextStyle(
                   color: ColorsNames.lightPurple,
                   fontSize: 24,
@@ -95,7 +96,7 @@ class StartPage extends StatelessWidget {
             children: <Widget>[
               Container(
                 child: Text(
-                  "How it works?\t",
+                  Texts.startFirstButtonSubtitle,
                   style: TextStyle(
                     color: ColorsNames.darkPurple,
                     fontSize: 12,
@@ -105,7 +106,7 @@ class StartPage extends StatelessWidget {
               ),
               Container(
                 child: Text(
-                  "Discover now",
+                  Texts.startSecondButtonSubtitle,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
                     fontSize: 12,

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'texts.dart';
 
 class SettingsPage extends StatelessWidget {
   @override
@@ -27,7 +28,7 @@ class SettingsPage extends StatelessWidget {
                 child: Container(
                   margin: EdgeInsets.fromLTRB(15, 20, 0, 20) ,
                   child: Text(
-                    "Settings",
+                    Texts.settingsHeader,
                     style: TextStyle(
                       fontSize: 36,
                       fontWeight: FontWeight.w500,

@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'assets.dart';
 import 'colors.dart';
 import 'navigation_bar.dart';
+import 'texts.dart';
 
 class NamePage extends StatefulWidget {
 
@@ -13,6 +14,8 @@ class NamePage extends StatefulWidget {
 
 class _NamePageState extends State<NamePage> {
   late TextEditingController _controller;
+  
+
 
   @override
   void initState() {
@@ -28,6 +31,14 @@ class _NamePageState extends State<NamePage> {
 
   @override
   Widget build(BuildContext context) {
+
+    double screenWidth = MediaQuery.of(context).size.width;
+    double screenHeight = MediaQuery.of(context).size.height;
+    double textFieldPaddingLeftRight = screenWidth / 5;
+    double textFieldPaddingTop = screenWidth / 3;
+    double textFieldPaddingBottom = screenHeight / 3.7;
+
+
     return Scaffold(
       backgroundColor: ColorsNames.backgroundColor,
       body: Center(
@@ -50,9 +61,8 @@ class _NamePageState extends State<NamePage> {
                     alignment: Alignment.bottomLeft,
                     child: Container(
                       margin:  EdgeInsets.only(left: 40),
-                      // padding: EdgeInsets.only(left: 20),
                       child: Text(
-                        "What is\nyour name?",
+                        Texts.nameHeader,
                         style: TextStyle(
                           color: ColorsNames.lightPurple,
                           fontSize: 36,
@@ -66,14 +76,16 @@ class _NamePageState extends State<NamePage> {
 
                   Container(
                     padding: EdgeInsets.fromLTRB(
-                      MediaQuery.of(context).size.width / 5,
-                      MediaQuery.of(context).size.width / 3,
-                      MediaQuery.of(context).size.width / 5,
-                      MediaQuery.of(context).size.height / 3.7,
+                      textFieldPaddingLeftRight,
+                      textFieldPaddingTop,
+                      textFieldPaddingLeftRight,
+                      textFieldPaddingBottom,
                     ),
                     child: TextField(
+                      style: TextStyle(
+                        color: ColorsNames.lightPurple,
+                      ),
                       controller: _controller,
-                      // onSubmitted: (value) => NamePage.userName,
                       decoration: InputDecoration(
                         enabledBorder: OutlineInputBorder(
                           borderSide: BorderSide(
@@ -113,7 +125,7 @@ class _NamePageState extends State<NamePage> {
                       MaterialPageRoute(builder: (context) => MyNavigationbar()));
                 },
                 child: const Text(
-                  "Start>",
+                  Texts.nameStartButton,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
                     fontSize: 24,
