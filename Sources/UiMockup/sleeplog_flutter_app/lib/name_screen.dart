@@ -3,11 +3,11 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'fonts.dart';
 import 'navigation_bar.dart';
 import 'texts.dart';
 
 class NamePage extends StatefulWidget {
-
   @override
   State<NamePage> createState() => _NamePageState();
 }
@@ -15,8 +15,6 @@ class NamePage extends StatefulWidget {
 class _NamePageState extends State<NamePage> {
   late TextEditingController _controller;
   
-
-
   @override
   void initState() {
     super.initState();
@@ -31,13 +29,11 @@ class _NamePageState extends State<NamePage> {
 
   @override
   Widget build(BuildContext context) {
-
     double screenWidth = MediaQuery.of(context).size.width;
     double screenHeight = MediaQuery.of(context).size.height;
     double textFieldPaddingLeftRight = screenWidth / 5;
     double textFieldPaddingTop = screenWidth / 3;
     double textFieldPaddingBottom = screenHeight / 3.7;
-
 
     return Scaffold(
       backgroundColor: ColorsNames.backgroundColor,
@@ -65,9 +61,9 @@ class _NamePageState extends State<NamePage> {
                         Texts.nameHeader,
                         style: TextStyle(
                           color: ColorsNames.lightPurple,
-                          fontSize: 36,
+                          fontSize: Fonts.headerFontSize,
                           fontWeight: FontWeight.bold,
-                          fontFamily: "Monsserat",
+                          fontFamily: Fonts.defaultFont,
                         ),
                       ),
                     ),
@@ -128,9 +124,9 @@ class _NamePageState extends State<NamePage> {
                   Texts.nameStartButton,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
-                    fontSize: 24,
+                    fontSize: Fonts.bottomButtonFontSize,
                     fontWeight: FontWeight.w500,
-                    fontFamily: "Monsserat",
+                    fontFamily: Fonts.defaultFont,
                   ),
                 ),
               ),

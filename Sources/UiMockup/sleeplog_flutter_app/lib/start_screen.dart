@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'fonts.dart';
 import 'name_screen.dart';
 import 'texts.dart';
 
@@ -35,9 +36,9 @@ class StartPage extends StatelessWidget {
                         Texts.startHeader,
                         style: TextStyle(
                           color: ColorsNames.lightPurple,
-                          fontSize: 36,
+                          fontSize: Fonts.headerFontSize,
                           fontWeight: FontWeight.bold,
-                          fontFamily: "Monsserat",
+                          fontFamily: Fonts.defaultFont,
                         ),
                       ),
                     ),
@@ -49,8 +50,8 @@ class StartPage extends StatelessWidget {
                         Texts.startSubtitle,
                         style: TextStyle(
                           color: ColorsNames.darkPurple,
-                          fontSize: 14,
-                          fontFamily: "Monsserat",
+                          fontSize: Fonts.subtitleFontSize,
+                          fontFamily: Fonts.defaultFont,
                         ),
                       ),
                     ),
@@ -83,9 +84,9 @@ class StartPage extends StatelessWidget {
                 Texts.startButton,
                 style: TextStyle(
                   color: ColorsNames.lightPurple,
-                  fontSize: 24,
+                  fontSize: Fonts.bottomButtonFontSize,
                   fontWeight: FontWeight.bold,
-                  fontFamily: "Monsserat",
+                  fontFamily: Fonts.defaultFont,
                 ),
               ),
             ),
@@ -99,8 +100,8 @@ class StartPage extends StatelessWidget {
                   Texts.startFirstButtonSubtitle,
                   style: TextStyle(
                     color: ColorsNames.darkPurple,
-                    fontSize: 12,
-                    fontFamily: "Monsserat",
+                    fontSize: Fonts.minFontSize,
+                    fontFamily: Fonts.defaultFont,
                   ),
                 ),
               ),
@@ -109,9 +110,9 @@ class StartPage extends StatelessWidget {
                   Texts.startSecondButtonSubtitle,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
-                    fontSize: 12,
+                    fontSize: Fonts.minFontSize,
                     fontWeight: FontWeight.bold,
-                    fontFamily: "Monsserat",
+                    fontFamily: Fonts.defaultFont,
                   ),
                 ),
               ),

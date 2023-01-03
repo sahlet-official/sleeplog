@@ -1,4 +1,4 @@
-class Texts{
+class Texts {
   // start_screen
     static const String startHeader = "Your Sleep\n\tAssistant";
     static const String startSubtitle = "Improve your sleep\n\t\t\t\t\tquality today";

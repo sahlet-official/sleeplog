@@ -1,4 +1,4 @@
-class Assets{
+class Assets {
   static const String backBlot = "assets/images/back_blot.svg";
   static const String bedImage = "assets/images/bed.png";
   static const String homeIcon = "assets/images/home.svg";

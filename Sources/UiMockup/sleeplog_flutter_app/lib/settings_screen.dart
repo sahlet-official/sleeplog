@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'fonts.dart';
 import 'texts.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -30,9 +31,9 @@ class SettingsPage extends StatelessWidget {
                   child: Text(
                     Texts.settingsHeader,
                     style: TextStyle(
-                      fontSize: 36,
+                      fontSize: Fonts.headerFontSize,
                       fontWeight: FontWeight.w500,
-                      fontFamily: "Montserrat",
+                      fontFamily: Fonts.defaultFont,
                       color: ColorsNames.lightPurple,
                     ),
                   ),

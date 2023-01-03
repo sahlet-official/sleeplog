@@ -33,5 +33,4 @@ class StatisticPage extends StatelessWidget{
        ),
     );
   }
-
 }

@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:sleeplog_flutter_app/start_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const SleeplogApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class SleeplogApp extends StatelessWidget {
+  const SleeplogApp({super.key});
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,4 +18,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-

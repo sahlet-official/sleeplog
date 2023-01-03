@@ -3,6 +3,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'fonts.dart';
 import 'texts.dart';
 
 class SubmitInfoPage extends StatefulWidget {
@@ -12,7 +13,6 @@ class SubmitInfoPage extends StatefulWidget {
 
 class _SubmitInfoPage extends State<SubmitInfoPage> {
   int _fallingAsleepLength = 0;
-
   late TextEditingController _controller;
 
   @override
@@ -41,9 +41,9 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                 child: Text(
                   Texts.submitHeader,
                   style: TextStyle(
-                    fontSize: 36,
+                    fontSize: Fonts.headerFontSize,
                     fontWeight: FontWeight.w500,
-                    fontFamily: "Montserrat",
+                    fontFamily: Fonts.defaultFont,
                     color: ColorsNames.lightPurple,
                   ),
                 ),
@@ -106,9 +106,9 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                             child: Text(
                               Texts.submitSleepLengthHeader,
                               style: TextStyle(
-                                fontSize: 17,
+                                fontSize: Fonts.cardTitleFontSize,
                                 fontWeight: FontWeight.w500,
-                                fontFamily: "Montserrat",
+                                fontFamily: Fonts.defaultFont,
                                 color: ColorsNames.lightPurple,
                               ),
                             ),
@@ -146,9 +146,9 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                                   child: Text(
                                     "$_fallingAsleepLength",
                                     style: TextStyle(
-                                      fontSize: 15,
+                                      fontSize: Fonts.submitCountButtonFontSize,
                                       fontWeight: FontWeight.bold,
-                                      fontFamily: "Montserrat",
+                                      fontFamily: Fonts.defaultFont,
                                       color: ColorsNames.lightPurple,
                                     ),
                                   ),
@@ -187,9 +187,9 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                             child: Text(
                               Texts.submitComments,
                               style: TextStyle(
-                                fontSize: 17,
+                                fontSize: Fonts.cardTitleFontSize,
                                 fontWeight: FontWeight.w500,
-                                fontFamily: "Montserrat",
+                                fontFamily: Fonts.defaultFont,
                                 color: ColorsNames.lightPurple,
                               ),
                             ),
@@ -254,9 +254,9 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                   Texts.submitButton,
                   style: TextStyle(
                     color: ColorsNames.lightPurple,
-                    fontSize: 24,
+                    fontSize: Fonts.bottomButtonFontSize,
                     fontWeight: FontWeight.w500,
-                    fontFamily: "Monsserat",
+                    fontFamily: Fonts.defaultFont,
                   ),
                 ),
               ),

@@ -4,18 +4,17 @@ import 'package:flutter_svg/svg.dart';
 
 import 'assets.dart';
 import 'colors.dart';
+import 'fonts.dart';
 import 'submit_info_screen.dart';
 import 'texts.dart';
 
-class HomePage extends StatefulWidget{
+class HomePage extends StatefulWidget {
   @override
   State<HomePage> createState() => _HomePage();
-
 }
 
 class _HomePage extends State<HomePage> {
   bool light = true;
-  
   
   @override
   Widget build(BuildContext context) {
@@ -44,9 +43,9 @@ class _HomePage extends State<HomePage> {
                       Texts.homeHeader,
                       style: TextStyle(
                         color: ColorsNames.lightPurple,
-                        fontSize: 36,
+                        fontSize: Fonts.headerFontSize,
                         fontWeight: FontWeight.bold,
-                        fontFamily: "Monsserat",
+                        fontFamily: Fonts.defaultFont,
                       ),
                     ),
                   ),
@@ -95,8 +94,8 @@ class _HomePage extends State<HomePage> {
                             Texts.homeBedTimeHeader,
                             style: TextStyle(
                               color: ColorsNames.lightPurple,
-                              fontSize: 16,
-                              fontFamily: "Monsserat",
+                              fontSize: Fonts.cardTitleFontSize,
+                              fontFamily: Fonts.defaultFont,
                             ),
                           ),
 
@@ -104,8 +103,8 @@ class _HomePage extends State<HomePage> {
                             Texts.homeBedTime,
                             style: TextStyle(
                               color: ColorsNames.darkPurple,
-                              fontSize: 14,
-                              fontFamily: "Monsserat",
+                              fontSize: Fonts.subtitleFontSize,
+                              fontFamily: Fonts.defaultFont,
                             ),
                           ),
 
