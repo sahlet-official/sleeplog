@@ -204,7 +204,6 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
                               style: TextStyle(color: ColorsNames.lightPurple),
                               controller: _controller,
                               maxLines: 5,
-                              onSubmitted: ((value) {}),
                               decoration: InputDecoration(
                                 enabledBorder: OutlineInputBorder(
                                   borderSide: BorderSide(
