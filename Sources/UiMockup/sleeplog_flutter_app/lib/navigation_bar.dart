@@ -16,7 +16,7 @@ class MyNavigationbar extends StatefulWidget {
 
 class _MyNavigationbarState extends State<MyNavigationbar> {
   int pageIndex = 0;
-  
+
   final pages = [
     HomePage(),
     StatisticPage(),
@@ -34,19 +34,19 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
     );
   }
 
-  Container _buildMyNavBar(BuildContext context){
+  Container _buildMyNavBar(BuildContext context) {
     return Container(
       height: 70,
       margin: EdgeInsets.fromLTRB(40, 40, 40, 20),
       decoration: BoxDecoration(
         color: ColorsNames.cardBackColor,
-       borderRadius: BorderRadius.all(Radius.circular(13)),
-                border: Border.all(
-                   width: 2,
-                  color:ColorsNames.cardBackColor,
-                ),
+        borderRadius: BorderRadius.all(Radius.circular(13)),
+        border: Border.all(
+          width: 2,
+          color: ColorsNames.cardBackColor,
         ),
-        child: Row(
+      ),
+      child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           IconButton(
@@ -57,13 +57,8 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 0
-                ? SvgPicture.asset(
-                  Assets.homeIconPress
-                )
-
-                : SvgPicture.asset(
-                  Assets.homeIcon
-                ),
+                ? SvgPicture.asset(Assets.homeIconPress)
+                : SvgPicture.asset(Assets.homeIcon),
           ),
           IconButton(
             enableFeedback: false,
@@ -73,12 +68,8 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 1
-                ? SvgPicture.asset(
-                  Assets.statisticIconPress
-                )
-                : SvgPicture.asset(
-                  Assets.statisticIcon
-                ),
+                ? SvgPicture.asset(Assets.statisticIconPress)
+                : SvgPicture.asset(Assets.statisticIcon),
           ),
           IconButton(
             enableFeedback: false,
@@ -88,16 +79,11 @@ class _MyNavigationbarState extends State<MyNavigationbar> {
               });
             },
             icon: pageIndex == 2
-                ?SvgPicture.asset(
-                  Assets.settingsIconPress
-                )
-                : SvgPicture.asset(
-                  Assets.settingsIcon
-                ),
+                ? SvgPicture.asset(Assets.settingsIconPress)
+                : SvgPicture.asset(Assets.settingsIcon),
           ),
-          
         ],
       ),
-      );
+    );
   }
 }

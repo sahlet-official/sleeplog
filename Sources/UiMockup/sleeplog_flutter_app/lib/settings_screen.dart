@@ -27,7 +27,7 @@ class SettingsPage extends StatelessWidget {
               Align(
                 alignment: Alignment.topLeft,
                 child: Container(
-                  margin: EdgeInsets.fromLTRB(15, 20, 0, 20) ,
+                  margin: EdgeInsets.fromLTRB(15, 20, 0, 20),
                   child: Text(
                     Texts.settingsHeader,
                     style: TextStyle(

@@ -15,7 +15,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePage extends State<HomePage> {
   bool light = true;
-  
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -72,7 +72,6 @@ class _HomePage extends State<HomePage> {
                     },
                   ),
                 ),
-
                 Container(
                   margin: EdgeInsets.fromLTRB(40, 0, 40, 0),
                   decoration: BoxDecoration(
@@ -87,7 +86,6 @@ class _HomePage extends State<HomePage> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: <Widget>[
                       Image.asset(Assets.bedImage),
-
                       Column(
                         children: <Widget>[
                           Text(
@@ -98,7 +96,6 @@ class _HomePage extends State<HomePage> {
                               fontFamily: Fonts.defaultFont,
                             ),
                           ),
-
                           Text(
                             Texts.homeBedTime,
                             style: TextStyle(
@@ -107,7 +104,6 @@ class _HomePage extends State<HomePage> {
                               fontFamily: Fonts.defaultFont,
                             ),
                           ),
-
                           CupertinoSwitch(
                             value: light,
                             trackColor: ColorsNames.lightPurple,
@@ -115,11 +111,10 @@ class _HomePage extends State<HomePage> {
                             thumbColor: Colors.white,
                             onChanged: (bool value) {
                               setState(() {
-                              light = value;
+                                light = value;
                               });
                             },
                           ),
-
                         ],
                       ),
                     ],

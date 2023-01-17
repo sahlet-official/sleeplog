@@ -14,7 +14,7 @@ class NamePage extends StatefulWidget {
 
 class _NamePageState extends State<NamePage> {
   late TextEditingController _controller;
-  
+
   @override
   void initState() {
     super.initState();
@@ -56,7 +56,7 @@ class _NamePageState extends State<NamePage> {
                   Align(
                     alignment: Alignment.bottomLeft,
                     child: Container(
-                      margin:  EdgeInsets.only(left: 40),
+                      margin: EdgeInsets.only(left: 40),
                       child: Text(
                         Texts.nameHeader,
                         style: TextStyle(
@@ -68,8 +68,6 @@ class _NamePageState extends State<NamePage> {
                       ),
                     ),
                   ),
-
-
                   Container(
                     padding: EdgeInsets.fromLTRB(
                       textFieldPaddingLeftRight,
@@ -117,8 +115,10 @@ class _NamePageState extends State<NamePage> {
                   textStyle: const TextStyle(fontSize: 20),
                 ),
                 onPressed: () {
-                  Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => MyNavigationbar()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => MyNavigationbar()));
                 },
                 child: const Text(
                   Texts.nameStartButton,

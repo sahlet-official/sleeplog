@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 
 import 'assets.dart';
 
-class StatisticPage extends StatelessWidget{
+class StatisticPage extends StatelessWidget {
   const StatisticPage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color.fromRGBO(0x19, 0x23, 0x46, 1.0),
-       body: Center(
+      body: Center(
         child: ListView(
           children: <Widget>[
             Container(
@@ -30,7 +30,7 @@ class StatisticPage extends StatelessWidget{
             ),
           ],
         ),
-       ),
+      ),
     );
   }
 }

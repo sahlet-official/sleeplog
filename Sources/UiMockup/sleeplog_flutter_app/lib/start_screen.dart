@@ -60,7 +60,6 @@ class StartPage extends StatelessWidget {
               ],
             ),
           ),
-
           Container(
             width: 260,
             height: 70,
@@ -91,7 +90,6 @@ class StartPage extends StatelessWidget {
               ),
             ),
           ),
-
           Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[

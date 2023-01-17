@@ -231,7 +231,7 @@ class _SubmitInfoPage extends State<SubmitInfoPage> {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(10, 20, 10,0),
+              margin: EdgeInsets.fromLTRB(10, 20, 10, 0),
               width: 340,
               height: 60,
               decoration: BoxDecoration(
