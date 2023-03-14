@@ -60,3 +60,31 @@ inside this gap between the brush strokes of the letter "T".<br>
 <br>
 The idea like in [Netflix intro](https://youtu.be/GV3HUDMQ-F8).<br>
 <br>
+
+#### Other examples
+
+![Image](https://user-images.githubusercontent.com/45210795/221173189-16d8523b-3b2d-4e67-8917-81428ae6a107.png)
+
+
+
+![Image](https://user-images.githubusercontent.com/45210795/221173212-a27a95eb-c76e-4216-b091-b40469803ebd.png)
+
+
+
+
+
+![Image](https://user-images.githubusercontent.com/45210795/221178017-43850e67-36d9-482d-bc07-d05b1a835fba.png)
+
+
+
+
+
+
+![Image](https://user-images.githubusercontent.com/45210795/221178038-13bf5930-9507-40d6-9e01-c079b974da3f.png)
+
+
+
+
+
+
+![Image](https://user-images.githubusercontent.com/45210795/221178068-5b0013a8-bf78-462c-ab13-731b71ccd05b.png)
