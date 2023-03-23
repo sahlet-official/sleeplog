@@ -2,7 +2,7 @@ This is iteration 1 of State-Transition diagram for Sleeplog.<br>
 It was created based on:
 - the interview with the Product Owner;
 - Product Owner requirements that were conducted from text dialog;
-- current iteration of UX/UI prototypes
+- current iteration of UX/UI prototypes;
 
 State-Transition diagram was devided to 2 parts:
 - [State diagram](https://miro.com/app/board/uXjVMclqawg=/?share_link_id=985501739958);,
