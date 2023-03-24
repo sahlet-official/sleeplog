@@ -4,6 +4,7 @@ This iteration was created based on:
 - Product Owner`s wishes;
 - State-Transition diagram iteration 1,2;
 - Userflow iteration 2;
+
 Short list of changes:
 - deleted screens which we don`t need;
 - changed intro screens(deleted UI part);
