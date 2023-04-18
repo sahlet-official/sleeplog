@@ -2,7 +2,7 @@ This is iteration 3 of Design creation for Sleeplog.<br>
 This iteration was created based on:
 - second iteration review;
 - Product Owner`s wishes;
-- State-Transition diagram iteration 1,2;
+- [State-Transition diagram iteration 1,2](https://miro.com/app/board/uXjVMcgFYnw=/);
 - Userflow iteration 2;
 
 Short list of changes:
